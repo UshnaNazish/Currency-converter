@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    amount = Number(prompt("Enter Amount In rupees"));
+    currency = prompt("Enter Currency[Dollar , Euro , Riyal]");
+    if(currency == "dollar"){
+        document.write("Amount in Dollars Is:" , amount*278.33);
+    }
+    else if(currency == "euro"){
+        document.write("Amount in Euro Is:" , amount*300.34);
+    }
+    else if(currency == "riyal"){
+        document.write("Amount in Riyal Is:" , amount*74.19);
+    }
+    else{
+        document.write("invalid currency");
+    }
+</script>
